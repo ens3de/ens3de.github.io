@@ -1,0 +1,18 @@
+Package: de.ens3.controlforge
+Version: 0.2.0-1-4+debug
+Architecture: iphoneos-arm64
+Maintainer: ControlForge
+Installed-Size: 300
+Depends: com.opa334.ccsupport
+Conflicts: de.ens3.cccustom
+Replaces: de.ens3.cccustom
+Filename: ./de.ens3.controlforge_0.2.0-1-4+debug_iphoneos-arm64.deb
+Size: 50966
+MD5sum: a36174ac2d5493fe6695a2244562eed3
+SHA1: 5471a9dd1116e021970e9e0fee3bb921d3844db3
+SHA256: e1ff8bd7aac008723dd11c195c7aba7032cb522499daebfff4017e4a132f1be6
+Section: Control Center (Modules)
+Description: JSON-configured shortcut groups, toggles, and VPN controls for iOS 16.
+Author: ControlForge
+Name: ControlForge
+

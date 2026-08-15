@@ -1,0 +1,13 @@
+Origin: 0x00
+Label: 0x00
+Suite: stable
+Codename: stable
+Architectures: iphoneos-arm64
+Components: main
+Description: 0x00 local package repository
+MD5Sum:
+ 6d2923eb8fdc6f02f81720b250b9643b 614 Packages
+ 313e986426c81207518291b232d7db85 416 Packages.gz
+SHA256:
+ 73d92ac47257dae5201a9374590bafc6816a48cd7ad228b1ab751653629fa5f9 614 Packages
+ bef79175e1e5601d2b3daf5e0d6c76e21436f891d89998f8c8926cb6db1899a4 416 Packages.gz
