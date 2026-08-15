@@ -16,3 +16,19 @@ Description: JSON-configured shortcut groups, toggles, and VPN controls for iOS 
 Author: ControlForge
 Name: ControlForge
 
+Package: de.ens3.squidshortcutfix
+Version: 0.4.2-1
+Architecture: iphoneos-arm64
+Maintainer: 0x00
+Installed-Size: 128
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./de.ens3.squidshortcutfix_0.4.2-1_iphoneos-arm64.deb
+Size: 11786
+MD5sum: fe4d265f556f238359df729eb78c4562
+SHA1: e30c0cbaf847c375aa5891d054f4f67e94aafba2
+SHA256: e3d6ea8e73f099aaa28da83ae902ea338afb51e7c0c5db944a7a063bf733d71e
+Section: Tweaks
+Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
+Author: 0x00
+Name: SquidShortcutFix
+

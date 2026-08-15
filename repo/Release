@@ -4,10 +4,10 @@ Suite: stable
 Codename: stable
 Architectures: iphoneos-arm64
 Components: main
-Description: 0x00 local package repository
+Description: 0x00 jailbreak package repository
 MD5Sum:
- 6a06d8a883878d58bbf5bfb795b97dfc 614 Packages
- ff3893e849e53e875b26658e09ea0b78 417 Packages.gz
+ 7bb060a7a8dd12a3cab40c61974eecdc 1144 Packages
+ 1ac0eeb9754f7075f5fa848a35c87773 650 Packages.gz
 SHA256:
- 83303c7269dc316b3ec54bea7aa608be3e5ae3d3d022dc7db5de843a1dbe71ed 614 Packages
- 40868c49d869ae655b6777bc3c47ffd36e26e96264e968115de82c1fdf779f3e 417 Packages.gz
+ 53b04c1e1bfbcbeb242e8a7554af3a33f0272af87e80c4b176dd2e1e35525738 1144 Packages
+ 97104ce213a05c8bee3bcc278727916d1b2501ec409db3a38697c73b823144cb 650 Packages.gz
