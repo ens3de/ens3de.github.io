@@ -2,12 +2,12 @@ Origin: 0x00
 Label: 0x00
 Suite: stable
 Codename: stable
-Architectures: iphoneos-arm64
+Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 0x00 jailbreak package repository
 MD5Sum:
- cb694119814cab6cfb7675f5bd5f4ed6 1140 Packages
- b220ed96c4db5934fe3485f3939fc1ac 650 Packages.gz
+ c384b5d7b3d6cf90f8d676940baa4684 1699 Packages
+ 63598e6c8b10153eca74ff64f46ec0ec 875 Packages.gz
 SHA256:
- 15a472feba66f883e5c3977751cc832ffa0a86160ba5bf431a36c96b25e71fb8 1140 Packages
- 69b018182ca61e65fb6848ce1a0406b6ac135e4b86c44d6f6f8486642e3bf58f 650 Packages.gz
+ 2610e555759caba9b5e436f708546ac174d79c380976566854c2d01f3e93bf48 1699 Packages
+ cd1a34bde48be6e5fe369a2ba0d77b2597adfd977ed16540e0b27c20276292b7 875 Packages.gz
