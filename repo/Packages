@@ -1,19 +1,36 @@
 Package: com.anthopak.springcuts-rebuild
-Version: 0.1.1-11
+Version: 1.5.3
 Architecture: iphoneos-arm64
 Maintainer: local development build
 Installed-Size: 544
 Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: com.anthopak.springcuts-rootless
 Replaces: com.anthopak.springcuts-rootless
-Filename: ./com.anthopak.springcuts-rebuild_0.1.1-11_iphoneos-arm64.deb
-Size: 30538
-MD5sum: d9c796a73f10018fea85283a296832b0
-SHA1: f923e1585c0b9acadbad92db12014b4f28af8e64
-SHA256: fc19df15682795f7d47979558a87eaf5e3df1997bdcc9744f8db5aff4631ad88
+Filename: ./com.anthopak.springcuts-rebuild_1.5.3_iphoneos-arm64.deb
+Size: 29284
+MD5sum: 769956b22168f0dde7c3c239e77f7ece
+SHA1: cb1aee866f7bb1a4d8d24092d9d9a5fbccfa1cf4
+SHA256: ed4fc716426533f7107274208875c9479a075b86759d32f4201b15fba3a4ed9b
 Section: Tweaks
-Description: Experimental SpringCuts iOS 17 WorkflowKit rebuild
+Description: SpringCuts 1.5.2-compatible iOS 17.3 WorkflowKit rebuild
 Name: SpringCuts Rebuild
+
+Package: com.saihgupr.remotecompanion
+Version: 3.4.7
+Architecture: iphoneos-arm64
+Maintainer: Saihgupr
+Installed-Size: 2408
+Depends: mobilesubstrate
+Filename: ./com.saihgupr.remotecompanion_3.4.7_iphoneos-arm64.deb
+Size: 889872
+MD5sum: 2866434949c2bbf2aab6cf2c8723f8dc
+SHA1: 371e0124458a29c9f420eb58f8616c221a6cd819
+SHA256: 14e160b31f80e88acd9ed417a87b39b66b816f350d4deaea851bad326d61e96f
+Section: Tweaks
+Description: A modern Activator replacement for rootless and rootful jailbreaks. Bind triggers like Touch ID, Power/Volume buttons, and Status Bar gestures to system actions, Siri automation, and custom TCP commands. Includes native arm64e support for iOS 14. https://github.com/saihgupr/RemoteCompanion
+Author: Saihgupr
+Icon: https://saihgupr.github.io/remotecompanion/CydiaIcon.png
+Name: RemoteCompanion
 
 Package: de.ens3.controlforge
 Version: 0.2.1-1+debug
