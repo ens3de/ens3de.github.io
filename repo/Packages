@@ -1,3 +1,20 @@
+Package: com.anthopak.springcuts-rebuild
+Version: 0.1.1-4
+Architecture: iphoneos-arm64
+Maintainer: local development build
+Installed-Size: 472
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: com.anthopak.springcuts-rootless
+Replaces: com.anthopak.springcuts-rootless
+Filename: ./com.anthopak.springcuts-rebuild_0.1.1-4_iphoneos-arm64.deb
+Size: 16604
+MD5sum: f298c9a55bef34e3b2fea61334bd2326
+SHA1: 697d5de6cc4d6937491bd27d3d27bddbcded3fda
+SHA256: 445645086c4efe8ad30d1a7f4d1fa4bb8763c4f60bc77bba8c190256119f2183
+Section: Tweaks
+Description: Experimental SpringCuts iOS 17 WorkflowKit rebuild
+Name: SpringCuts Rebuild
+
 Package: de.ens3.controlforge
 Version: 0.2.1-1+debug
 Architecture: iphoneos-arm64
