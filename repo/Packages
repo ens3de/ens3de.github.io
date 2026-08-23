@@ -6,7 +6,7 @@ Installed-Size: 544
 Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: com.anthopak.springcuts-rootless
 Replaces: com.anthopak.springcuts-rootless
-Filename: repo/com.anthopak.springcuts-rebuild_1.5.3_iphoneos-arm64.deb
+Filename: ./com.anthopak.springcuts-rebuild_1.5.3_iphoneos-arm64.deb
 Size: 29284
 MD5sum: 769956b22168f0dde7c3c239e77f7ece
 SHA1: cb1aee866f7bb1a4d8d24092d9d9a5fbccfa1cf4
@@ -21,7 +21,7 @@ Architecture: iphoneos-arm64
 Maintainer: Saihgupr
 Installed-Size: 2408
 Depends: mobilesubstrate
-Filename: repo/com.saihgupr.remotecompanion_3.4.7_iphoneos-arm64.deb
+Filename: ./com.saihgupr.remotecompanion_3.4.7_iphoneos-arm64.deb
 Size: 889872
 MD5sum: 2866434949c2bbf2aab6cf2c8723f8dc
 SHA1: 371e0124458a29c9f420eb58f8616c221a6cd819
@@ -40,7 +40,7 @@ Installed-Size: 212
 Depends: com.opa334.ccsupport
 Conflicts: de.ens3.cccustom
 Replaces: de.ens3.cccustom
-Filename: repo/de.ens3.controlforge_0.2.2_iphoneos-arm64.deb
+Filename: ./de.ens3.controlforge_0.2.2_iphoneos-arm64.deb
 Size: 33512
 MD5sum: 2d1f8fdee9bc864638865805f81c6de6
 SHA1: a12e3a8e993e0825c794dbb936537ba7e1848ef1
@@ -51,16 +51,48 @@ Author: ControlForge
 Name: ControlForge
 
 Package: de.ens3.squidshortcutfix
-Version: 0.4.3-1
+Version: 0.4.2-1
 Architecture: iphoneos-arm64
 Maintainer: 0x00
 Installed-Size: 128
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: repo/de.ens3.squidshortcutfix_0.4.3-1_iphoneos-arm64.deb
-Size: 11788
-MD5sum: e9ef8586fb56314ca3da9708aa0db804
-SHA1: 73a4bd2d971058dc21ab2801bd64a6aed6991ed9
-SHA256: 3eba447f0fba32eb235f8fe7b18d7a27c27e44438e30053e8829905da58fb332
+Filename: ./de.ens3.squidshortcutfix_0.4.2-1_iphoneos-arm64.deb
+Size: 11786
+MD5sum: fe4d265f556f238359df729eb78c4562
+SHA1: e30c0cbaf847c375aa5891d054f4f67e94aafba2
+SHA256: e3d6ea8e73f099aaa28da83ae902ea338afb51e7c0c5db944a7a063bf733d71e
+Section: Tweaks
+Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
+Author: 0x00
+Name: SquidShortcutFix
+
+Package: de.ens3.squidshortcutfix
+Version: 0.4.2-2
+Architecture: iphoneos-arm64
+Maintainer: 0x00
+Installed-Size: 128
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./de.ens3.squidshortcutfix_0.4.2-2_iphoneos-arm64.deb
+Size: 11796
+MD5sum: 1651b07bac543ba600918b6b91b4c063
+SHA1: cd3ee3ef772e11167038b5d2044752e93eed3c41
+SHA256: e6ec0aaae4a2982f5a4a4f43bbdc8e935b610367cee81f15c6fc1bb472f433eb
+Section: Tweaks
+Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
+Author: 0x00
+Name: SquidShortcutFix
+
+Package: de.ens3.squidshortcutfix
+Version: 0.4.3
+Architecture: iphoneos-arm64
+Maintainer: 0x00
+Installed-Size: 128
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./de.ens3.squidshortcutfix_0.4.3_iphoneos-arm64.deb
+Size: 11792
+MD5sum: a3c1e4245e3dd3e04cd79fc9e3678db7
+SHA1: bd9ff5a266f5f710e052c92ef4d9d5635811dd49
+SHA256: 7aff58108616534906af18b7198b25eb27d731e44208b057c39ae5d604b2f2b1
 Section: Tweaks
 Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
 Author: 0x00
@@ -72,7 +104,7 @@ Architecture: iphoneos-arm64e
 Maintainer: zanyoo <techyangcy@gmail.com>
 Installed-Size: 332
 Depends: firmware (>= 17.0), mobilesubstrate
-Filename: repo/de.ens3.vpnhue_1.0.0_iphoneos-arm64e.deb
+Filename: ./de.ens3.vpnhue_1.0.0_iphoneos-arm64e.deb
 Size: 40588
 MD5sum: f49784ce41b91381e308bb466b8256f8
 SHA1: bc34a8d691f3d774edde5275f3f527980d3fdf7f
