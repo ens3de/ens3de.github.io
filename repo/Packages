@@ -82,6 +82,22 @@ Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
 Author: 0x00
 Name: SquidShortcutFix
 
+Package: de.ens3.squidshortcutfix
+Version: 0.4.3-1
+Architecture: iphoneos-arm64
+Maintainer: 0x00
+Installed-Size: 128
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./de.ens3.squidshortcutfix_0.4.3-1_iphoneos-arm64.deb
+Size: 11788
+MD5sum: e9ef8586fb56314ca3da9708aa0db804
+SHA1: 73a4bd2d971058dc21ab2801bd64a6aed6991ed9
+SHA256: 3eba447f0fba32eb235f8fe7b18d7a27c27e44438e30053e8829905da58fb332
+Section: Tweaks
+Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
+Author: 0x00
+Name: SquidShortcutFix
+
 Package: de.ens3.vpnhue
 Version: 1.0.0
 Architecture: iphoneos-arm64e
