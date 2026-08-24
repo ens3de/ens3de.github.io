@@ -1,10 +1,11 @@
-Origin: 0x00
-Label: 0x00
+Origin: Zanyoo
+Label: Zanyoo Jailbreak Repository
 Suite: stable
-Codename: stable
-Architectures: iphoneos-arm64
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 0x00 jailbreak package repository
+Description: Zanyoo jailbreak package repository
 MD5Sum:
  18d283f1fb11b4137b91213998d6e0c8 2893 Packages
  11accaf792b700c877d5c168e61f0b60 1264 Packages.gz
