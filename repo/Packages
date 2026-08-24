@@ -21,7 +21,7 @@ Architecture: iphoneos-arm64
 Maintainer: zanyoo
 Installed-Size: 188
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./com.zanyoo.remotecompanion.extension_0.3.5-2_iphoneos-arm64.deb
+Filename: ./com.zanyoo.remotecompanion.extension_0.3.5.1_iphoneos-arm64.deb
 Size: 13850
 MD5sum: b353fef87cce10f1d39458563575df01
 SHA1: 08d60fa9a4896f045d30b5527f946d82ebe1bdfe
