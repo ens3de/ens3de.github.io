@@ -16,16 +16,16 @@ Description: SpringCuts 1.5.2-compatible iOS 17.3 WorkflowKit rebuild
 Name: SpringCuts Rebuild
 
 Package: com.zanyoo.remotecompanion.extension
-Version: 0.2.0-1+debug
+Version: 0.2.1-1+debug
 Architecture: iphoneos-arm64
 Maintainer: zanyoo
-Installed-Size: 232
+Installed-Size: 212
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./com.zanyoo.remotecompanion.extension_0.2.0-1+debug_iphoneos-arm64.deb
-Size: 22922
-MD5sum: 16fb6691976a5f65ac45d7b1d000a047
-SHA1: 9d4867d5dab014dd7aa71d2ea2d04a1d06b726fa
-SHA256: cd0bf3815deae183ee2fc8242b5fe6a1e772b12cfb8bc20ff55462cba7afd2e2
+Filename: ./com.zanyoo.remotecompanion.extension_0.2.1-1+debug_iphoneos-arm64.deb
+Size: 22806
+MD5sum: fd5cd0520bbd3d4c90fd693d897ab15d
+SHA1: e4cd6f24409fb207077fc28296342eefae5f3240
+SHA256: 3d138a61b0d54a057e1596e65432afd69a5c0587f794bb9854024b19dea5cfad
 Section: Tweaks
 Description: RemoteCompanion extension for Action Button and Home Bar shortcut events
 Author: zanyoo
