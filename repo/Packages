@@ -15,22 +15,21 @@ Section: Tweaks
 Description: SpringCuts 1.5.2-compatible iOS 17.3 WorkflowKit rebuild
 Name: SpringCuts Rebuild
 
-Package: com.saihgupr.remotecompanion
-Version: 3.4.7
+Package: com.zanyoo.remotecompanion.extension
+Version: 0.1.6
 Architecture: iphoneos-arm64
-Maintainer: Saihgupr
-Installed-Size: 2408
-Depends: mobilesubstrate
-Filename: ./com.saihgupr.remotecompanion_3.4.7_iphoneos-arm64.deb
-Size: 889872
-MD5sum: 2866434949c2bbf2aab6cf2c8723f8dc
-SHA1: 371e0124458a29c9f420eb58f8616c221a6cd819
-SHA256: 14e160b31f80e88acd9ed417a87b39b66b816f350d4deaea851bad326d61e96f
+Maintainer: zanyoo
+Installed-Size: 172
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./com.zanyoo.remotecompanion.extension_0.1.6_iphoneos-arm64.deb
+Size: 10566
+MD5sum: 7dd955d4ca654e6569e73cd42f64eb7b
+SHA1: a6decc7736b6bdb036906afda0eb893972b1ae0f
+SHA256: 4da8d4a0b651ce5cb64b682b3e69a0a055534acd34d4fadb6ae3e58102d848bd
 Section: Tweaks
-Description: A modern Activator replacement for rootless and rootful jailbreaks. Bind triggers like Touch ID, Power/Volume buttons, and Status Bar gestures to system actions, Siri automation, and custom TCP commands. Includes native arm64e support for iOS 14. https://github.com/saihgupr/RemoteCompanion
-Author: Saihgupr
-Icon: https://saihgupr.github.io/remotecompanion/CydiaIcon.png
-Name: RemoteCompanion
+Description: RemoteCompanion extension for Action Button and Home Bar shortcut events
+Author: zanyoo
+Name: RemoteCompanion Extension
 
 Package: de.ens3.controlforge
 Version: 0.2.2
@@ -49,38 +48,6 @@ Section: Control Center (Modules)
 Description: JSON-configured shortcut groups, toggles, and VPN controls for iOS 16.
 Author: ControlForge
 Name: ControlForge
-
-Package: de.ens3.squidshortcutfix
-Version: 0.4.2-1
-Architecture: iphoneos-arm64
-Maintainer: 0x00
-Installed-Size: 128
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./de.ens3.squidshortcutfix_0.4.2-1_iphoneos-arm64.deb
-Size: 11786
-MD5sum: fe4d265f556f238359df729eb78c4562
-SHA1: e30c0cbaf847c375aa5891d054f4f67e94aafba2
-SHA256: e3d6ea8e73f099aaa28da83ae902ea338afb51e7c0c5db944a7a063bf733d71e
-Section: Tweaks
-Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
-Author: 0x00
-Name: SquidShortcutFix
-
-Package: de.ens3.squidshortcutfix
-Version: 0.4.2-2
-Architecture: iphoneos-arm64
-Maintainer: 0x00
-Installed-Size: 128
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./de.ens3.squidshortcutfix_0.4.2-2_iphoneos-arm64.deb
-Size: 11796
-MD5sum: 1651b07bac543ba600918b6b91b4c063
-SHA1: cd3ee3ef772e11167038b5d2044752e93eed3c41
-SHA256: e6ec0aaae4a2982f5a4a4f43bbdc8e935b610367cee81f15c6fc1bb472f433eb
-Section: Tweaks
-Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
-Author: 0x00
-Name: SquidShortcutFix
 
 Package: de.ens3.squidshortcutfix
 Version: 0.4.3
