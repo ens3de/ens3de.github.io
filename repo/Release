@@ -1,11 +1,11 @@
-Origin: Zanyoo
-Label: Zanyoo Jailbreak Repository
+Origin: ens3 repo
+Label: ens3 repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Zanyoo jailbreak package repository
+Description: ens3 repo
 MD5Sum:
  726f85118f178a9662b9ba4f30d941ea 2871 Packages
  cec5fed2e195bc43a41e718a96c4341e 1254 Packages.gz
