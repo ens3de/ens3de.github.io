@@ -34,16 +34,16 @@ Author: ControlForge
 Name: ControlForge
 
 Package: de.ens3.remotecompanion.extension
-Version: 0.3.11
+Version: 0.3.12
 Architecture: iphoneos-arm64
 Maintainer: zanyoo
 Installed-Size: 204
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./de.ens3.remotecompanion.extension_0.3.11_iphoneos-arm64.deb
-Size: 16484
-MD5sum: 18d2080641edf8fe6649b8e9b36425d7
-SHA1: f8b61663c412152a79569dc070929bcd96817aa8
-SHA256: 0064e6a837ada99bf47f615b2f2742d5fbc0a5f4082e9802a444170402d7c51b
+Filename: ./de.ens3.remotecompanion.extension_0.3.12_iphoneos-arm64.deb
+Size: 17238
+MD5sum: 961eb1b56f1bd66adaebe76a6db35520
+SHA1: 2820c4d60bb561e123638184483a31a9e6128248
+SHA256: 008977593c4900fbbb567e5dce3a837e3a09f97357e9497443ed64f5dc307bf9
 Section: Tweaks
 Description: RemoteCompanion extension for Action Button and Home Bar shortcut events
 Author: zanyoo
