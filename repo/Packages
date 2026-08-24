@@ -21,11 +21,11 @@ Architecture: iphoneos-arm64
 Maintainer: zanyoo
 Installed-Size: 188
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./com.zanyoo.remotecompanion.extension_0.3.5.3_iphoneos-arm64.deb
-Size: 13866
-MD5sum: b0040440fe4e38ec42fd3e84f9ddb345
-SHA1: 0878051fece728e4e55bfe0ba5b909b023b252c1
-SHA256: 282998b6aae1cfaad8520f68fc5df6c9dc033673772c8581d72e2216df3bb463
+Filename: ./com.zanyoo.remotecompanion.extension_0.3.5.4_iphoneos-arm64.deb
+Size: 13834
+MD5sum: 2a420a45501c0ee379447805e1448551
+SHA1: d9d1c361d6d85795748758abc595f1dcd13fa8e4
+SHA256: b2bb14409f43395a808900555e2e045b497d3e7c4c0f4397ca3e5c7935a0f66b
 Section: Tweaks
 Description: RemoteCompanion extension for Action Button and Home Bar shortcut events
 Author: zanyoo
