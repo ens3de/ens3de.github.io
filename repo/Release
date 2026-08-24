@@ -8,5 +8,7 @@ Components: main
 Description: Zanyoo jailbreak package repository
 MD5Sum:
  e1ad1b324b805d170d2760302aeabce8 2879 Packages
+ 2e2ae818a38da4c87b5be14feb328aaf 1262 Packages.gz
 SHA256:
  c12c46e2fed6d4cc06977266f63cb845331fdd6097994d5f329c42c1ff42bc09 2879 Packages
+ c2447dbf16d47a8539f764b1905c774cf05ec51b1673ed073c188286f436624c 1262 Packages.gz
