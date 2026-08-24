@@ -7,8 +7,8 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Zanyoo jailbreak package repository
 MD5Sum:
- e39864be653e89ec3053e633184c2d1b 2877 Packages
- ac730cd025c8cba46f269b1cdca378d2 1260 Packages.gz
+ e1f435beae8917b3e9db3cf413991277 2871 Packages
+ bfdfa642fe6bc2d36fd2d7ac8174708b 1253 Packages.gz
 SHA256:
- c3e1fdb459ba45988625cbf6da281d904bc7b560cb8185d90fa7b006a3c76b80 2877 Packages
- fafa828d216f5cd3d284c33d9b44d1b85fe655f2afe45d68754ad593d72450d4 1260 Packages.gz
+ c3b58ca17fdf11d401341eea6b10f0da614aa948dd6ff62a4cfea521404dc6b4 2871 Packages
+ 6904c5535172c9ba4ee1dfc65a02a5cb7f7915254793e47d5f9446e621f8d154 1253 Packages.gz

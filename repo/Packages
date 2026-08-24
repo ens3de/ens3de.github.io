@@ -15,22 +15,6 @@ Section: Tweaks
 Description: SpringCuts 1.5.2-compatible iOS 17.3 WorkflowKit rebuild
 Name: SpringCuts Rebuild
 
-Package: com.zanyoo.remotecompanion.extension
-Version: 0.3.6
-Architecture: iphoneos-arm64
-Maintainer: zanyoo
-Installed-Size: 204
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./com.zanyoo.remotecompanion.extension_0.3.6_iphoneos-arm64.deb
-Size: 16024
-MD5sum: 1950a2c7bafe0633b88769adfa770874
-SHA1: dc66747301b4909d2b98408d92da1d0e77a41e58
-SHA256: d4532f8a1d7f2202b635f3b5f16fd82a8b717835c016a5851fd2eee162a4faf8
-Section: Tweaks
-Description: RemoteCompanion extension for Action Button and Home Bar shortcut events
-Author: zanyoo
-Name: RemoteCompanion Extension
-
 Package: de.ens3.controlforge
 Version: 0.2.2
 Architecture: iphoneos-arm64
@@ -48,6 +32,22 @@ Section: Control Center (Modules)
 Description: JSON-configured shortcut groups, toggles, and VPN controls for iOS 16.
 Author: ControlForge
 Name: ControlForge
+
+Package: de.ens3.remotecompanion.extension
+Version: 0.3.6
+Architecture: iphoneos-arm64
+Maintainer: zanyoo
+Installed-Size: 204
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./de.ens3.remotecompanion.extension_0.3.6_iphoneos-arm64.deb
+Size: 15984
+MD5sum: 95f73687dd41c32aff755f8e80e857ee
+SHA1: 229005cf8cbd967e9bdd1cdc144d59b98ee4532a
+SHA256: adecc6d3dbbffc607334e7f97bf31d10f0dd94fca2ac347750878dfb0257add3
+Section: Tweaks
+Description: RemoteCompanion extension for Action Button and Home Bar shortcut events
+Author: zanyoo
+Name: RemoteCompanion Extension
 
 Package: de.ens3.squidshortcutfix
 Version: 0.4.3
