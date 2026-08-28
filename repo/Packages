@@ -16,18 +16,18 @@ Description: SpringCuts 1.5.2-compatible iOS 17.3 WorkflowKit rebuild
 Name: SpringCuts Rebuild
 
 Package: de.ens3.controlforge
-Version: 0.2.6
+Version: 0.2.7
 Architecture: iphoneos-arm64
 Maintainer: ControlForge
 Installed-Size: 260
 Depends: com.opa334.ccsupport
 Conflicts: de.ens3.cccustom
 Replaces: de.ens3.cccustom
-Filename: ./de.ens3.controlforge_0.2.6_iphoneos-arm64.deb
-Size: 55384
-MD5sum: 7d9421d2ea3655db2843b9e09d7b7416
-SHA1: e9e42861c4582711cf32f9d2588d177afaea1de5
-SHA256: fbb63f9f8bce234ac659dbfe7e720a0bea59002b5c8b9415363fcf9b247fdd83
+Filename: ./de.ens3.controlforge_0.2.7_iphoneos-arm64.deb
+Size: 55614
+MD5sum: 85152de776cb301d0b75b7e6583276c3
+SHA1: b96035165c94d1b4dcef404e58bc6d9bd6453e73
+SHA256: e9dda1a81df08c9dfce6491a0f01b4cde597972239d0c7b8cd1a3c7e0442a806
 Section: Control Center (Modules)
 Description: JSON-configured shortcut groups, toggles, and VPN controls for iOS 17.
 Author: ControlForge
