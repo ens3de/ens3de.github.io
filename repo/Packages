@@ -142,6 +142,24 @@ Author: ControlForge
 Name: ControlForge
 
 Package: de.ens3.controlforge
+Version: 0.3.0~experiment16
+Architecture: iphoneos-arm64
+Maintainer: ControlForge
+Installed-Size: 276
+Depends: com.opa334.ccsupport
+Conflicts: de.ens3.cccustom
+Replaces: de.ens3.cccustom
+Filename: ./de.ens3.controlforge_0.3.0~experiment16_iphoneos-arm64.deb
+Size: 63842
+MD5sum: 6c9b1e023246c0e81436149320010222
+SHA1: 58e04c1d7fc7fad179b40e7a0cbd96dd15a01d71
+SHA256: e77dfafb3c8bbebb31d9ddb7d7af27e45503e5d83b1c90a939e76e0bfd2eb30c
+Section: Control Center (Modules)
+Description: JSON-configured shortcut groups, toggles, VPN, and experimental power controls for iOS 17.
+Author: ControlForge
+Name: ControlForge
+
+Package: de.ens3.controlforge
 Version: 0.3.0~experiment1
 Architecture: iphoneos-arm64
 Maintainer: ControlForge
