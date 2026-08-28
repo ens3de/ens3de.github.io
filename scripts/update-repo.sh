@@ -10,11 +10,6 @@ SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 REPO_DIR="$SCRIPT_DIR/../repo"
 REPO_DIR=$(CDPATH= cd -- "$REPO_DIR" && pwd)
 
-command -v dpkg-scanpackages >/dev/null 2>&1 || {
-    echo "error: dpkg-scanpackages is required" >&2
-    exit 1
-}
-
 md5_file() {
     if command -v md5 >/dev/null 2>&1; then
         md5 -q "$1"
@@ -37,10 +32,17 @@ TMP_PACKAGES=$(mktemp "${TMPDIR:-/tmp}/ens3-packages.XXXXXX")
 TMP_RELEASE=$(mktemp "${TMPDIR:-/tmp}/ens3-release.XXXXXX")
 trap 'rm -f "$TMP_PACKAGES" "$TMP_RELEASE"' EXIT INT TERM
 
-(
-    cd "$REPO_DIR"
-    dpkg-scanpackages -m . /dev/null > "$TMP_PACKAGES"
-)
+if command -v dpkg-scanpackages >/dev/null 2>&1; then
+    (
+        cd "$REPO_DIR"
+        dpkg-scanpackages -m . /dev/null > "$TMP_PACKAGES"
+    )
+elif command -v python3 >/dev/null 2>&1; then
+    python3 "$SCRIPT_DIR/scan-packages.py" "$REPO_DIR" > "$TMP_PACKAGES"
+else
+    echo "error: dpkg-scanpackages or python3 is required" >&2
+    exit 1
+fi
 mv "$TMP_PACKAGES" "$PACKAGE_INDEX"
 
 # Never leave an old compressed index behind. Release contains only Packages.
