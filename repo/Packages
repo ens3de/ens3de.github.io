@@ -81,22 +81,6 @@ Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
 Author: 0x00
 Name: SquidShortcutFix
 
-Package: de.ens3.storeflip
-Version: 0.1.0
-Architecture: iphoneos-arm64
-Maintainer: zanyoo
-Installed-Size: 72
-Depends: firmware (>= 17.0), mobilesubstrate
-Filename: ./de.ens3.storeflip_0.1.0_iphoneos-arm64.deb
-Size: 5108
-MD5sum: 4143f844c1906717b880aa02ccba43a3
-SHA1: ae5269d0dcc9fc7fc6a58ded2a20a8be3958ef80
-SHA256: e66ce465e74e4f0c1dc881ece9cdc8748250c438b289c02ad526b5f958e33baa
-Section: Tweaks
-Description: Standalone App Store account switcher in the 3D Touch menu.
-Author: zanyoo
-Name: StoreFlip
-
 Package: de.ens3.vpnhue
 Version: 1.0.0
 Architecture: iphoneos-arm64e
