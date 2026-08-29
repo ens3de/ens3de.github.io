@@ -15,6 +15,22 @@ Section: Tweaks
 Description: SpringCuts 1.5.2-compatible iOS 17.3 WorkflowKit rebuild
 Name: SpringCuts Rebuild
 
+Package: de.ens3.appstoreflip2
+Version: 0.1.25
+Architecture: iphoneos-arm64
+Maintainer: zanyoo
+Installed-Size: 72
+Depends: firmware (>= 17.0), mobilesubstrate
+Filename: ./de.ens3.appstoreflip2_0.1.25_iphoneos-arm64.deb
+Size: 7330
+MD5sum: e2e9f3bedce22e7d1051034ecd26a048
+SHA1: 55e98e3021111ecd530e47715aa8bf19daf7fa93
+SHA256: 0e957a3e6258dc3530862ed17d00ff9bc747269f5d61cac9bf4690df44d709f4
+Section: Tweaks
+Description: App Store account switcher with country indicators.
+Author: zanyoo
+Name: AppStoreFlip2
+
 Package: de.ens3.controlforge
 Version: 0.3.0
 Architecture: iphoneos-arm64
