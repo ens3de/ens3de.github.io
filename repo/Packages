@@ -31,6 +31,22 @@ Description: App Store account switcher with country indicators.
 Author: zanyoo
 Name: AppStoreFlip2
 
+Package: de.ens3.appstoreflip2
+Version: 0.1.26
+Architecture: iphoneos-arm64
+Maintainer: zanyoo
+Installed-Size: 72
+Depends: firmware (>= 17.0), mobilesubstrate
+Filename: ./de.ens3.appstoreflip2_0.1.26_iphoneos-arm64.deb
+Size: 7320
+MD5sum: 50b6e058e52f64b7ae9b8dd962e61177
+SHA1: 094cccef2caf667bab31b21b29360558d35b36d2
+SHA256: 2b0e62463546dcea08070b3759cbd84061ac104d57aee1d83f6ebb73b4e82a36
+Section: Tweaks
+Description: App Store account switcher with country indicators.
+Author: zanyoo
+Name: AppStoreFlip2
+
 Package: de.ens3.controlforge
 Version: 0.3.0
 Architecture: iphoneos-arm64
