@@ -6,7 +6,7 @@ Installed-Size: 544
 Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: com.anthopak.springcuts-rootless
 Replaces: com.anthopak.springcuts-rootless
-Filename: ./com.anthopak.springcuts-rebuild_1.5.3_iphoneos-arm64.deb
+Filename: com.anthopak.springcuts-rebuild_1.5.3_iphoneos-arm64.deb
 Size: 29284
 MD5sum: 769956b22168f0dde7c3c239e77f7ece
 SHA1: cb1aee866f7bb1a4d8d24092d9d9a5fbccfa1cf4
@@ -16,44 +16,12 @@ Description: SpringCuts 1.5.2-compatible iOS 17.3 WorkflowKit rebuild
 Name: SpringCuts Rebuild
 
 Package: de.ens3.appstoreflip2
-Version: 0.1.25
-Architecture: iphoneos-arm64
-Maintainer: zanyoo
-Installed-Size: 72
-Depends: firmware (>= 17.0), mobilesubstrate
-Filename: ./de.ens3.appstoreflip2_0.1.25_iphoneos-arm64.deb
-Size: 7330
-MD5sum: e2e9f3bedce22e7d1051034ecd26a048
-SHA1: 55e98e3021111ecd530e47715aa8bf19daf7fa93
-SHA256: 0e957a3e6258dc3530862ed17d00ff9bc747269f5d61cac9bf4690df44d709f4
-Section: Tweaks
-Description: App Store account switcher with country indicators.
-Author: zanyoo
-Name: AppStoreFlip2
-
-Package: de.ens3.appstoreflip2
-Version: 0.1.26
-Architecture: iphoneos-arm64
-Maintainer: zanyoo
-Installed-Size: 72
-Depends: firmware (>= 17.0), mobilesubstrate
-Filename: ./de.ens3.appstoreflip2_0.1.26_iphoneos-arm64.deb
-Size: 7320
-MD5sum: 50b6e058e52f64b7ae9b8dd962e61177
-SHA1: 094cccef2caf667bab31b21b29360558d35b36d2
-SHA256: 2b0e62463546dcea08070b3759cbd84061ac104d57aee1d83f6ebb73b4e82a36
-Section: Tweaks
-Description: App Store account switcher with country indicators.
-Author: zanyoo
-Name: AppStoreFlip2
-
-Package: de.ens3.appstoreflip2
 Version: 0.1.31
 Architecture: iphoneos-arm64
 Maintainer: zanyoo
 Installed-Size: 72
 Depends: firmware (>= 17.0), mobilesubstrate
-Filename: ./de.ens3.appstoreflip2_0.1.31_iphoneos-arm64.deb
+Filename: de.ens3.appstoreflip2_0.1.31_iphoneos-arm64.deb
 Size: 7798
 MD5sum: 3cd47ec680b0d71a9d6a7c8afe50b050
 SHA1: 0f738663e6e0450a55da7e51cc56ed2b3b9bedac
@@ -64,24 +32,6 @@ Author: zanyoo
 Name: AppStoreFlip2
 
 Package: de.ens3.controlforge
-Version: 0.3.0
-Architecture: iphoneos-arm64
-Maintainer: ControlForge
-Installed-Size: 276
-Depends: com.opa334.ccsupport
-Conflicts: de.ens3.cccustom
-Replaces: de.ens3.cccustom
-Filename: ./de.ens3.controlforge_0.3.0_iphoneos-arm64.deb
-Size: 63836
-MD5sum: 34be0edbdefe09aaf4e290ebaae67341
-SHA1: 1dafe08e355719174833b9d84acd28ab3195dd4c
-SHA256: 5d1f31918d177660708997bcf09284257ed795e1858bd6646b3e98fd12181d35
-Section: Control Center (Modules)
-Description: JSON-configured shortcut groups, toggles, VPN, and power controls for iOS 17.
-Author: ControlForge
-Name: ControlForge
-
-Package: de.ens3.controlforge
 Version: 0.3.3
 Architecture: iphoneos-arm64
 Maintainer: ControlForge
@@ -89,7 +39,7 @@ Installed-Size: 244
 Depends: com.opa334.ccsupport
 Conflicts: de.ens3.cccustom
 Replaces: de.ens3.cccustom
-Filename: ./de.ens3.controlforge_0.3.3_iphoneos-arm64.deb
+Filename: de.ens3.controlforge_0.3.3_iphoneos-arm64.deb
 Size: 43504
 MD5sum: 99fad642227e753451d0b95c1d99c335
 SHA1: 0350d93014136155396bde55c1dc11596131cfd5
@@ -105,7 +55,7 @@ Architecture: iphoneos-arm64
 Maintainer: zanyoo
 Installed-Size: 172
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./de.ens3.remotecompanion.extension_0.3.17_iphoneos-arm64.deb
+Filename: de.ens3.remotecompanion.extension_0.3.17_iphoneos-arm64.deb
 Size: 12666
 MD5sum: 0bb7480129b7ceb0e5609bc2d0242ddb
 SHA1: e39f575c10dce2ea961deea160a490aeb307e693
@@ -121,7 +71,7 @@ Architecture: iphoneos-arm64
 Maintainer: 0x00
 Installed-Size: 128
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./de.ens3.squidshortcutfix_0.4.3_iphoneos-arm64.deb
+Filename: de.ens3.squidshortcutfix_0.4.3_iphoneos-arm64.deb
 Size: 11792
 MD5sum: a3c1e4245e3dd3e04cd79fc9e3678db7
 SHA1: bd9ff5a266f5f710e052c92ef4d9d5635811dd49
@@ -130,20 +80,4 @@ Section: Tweaks
 Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
 Author: 0x00
 Name: SquidShortcutFix
-
-Package: de.ens3.vpnhue
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: zanyoo <techyangcy@gmail.com>
-Installed-Size: 332
-Depends: firmware (>= 17.0), mobilesubstrate
-Filename: ./de.ens3.vpnhue_1.0.0_iphoneos-arm64e.deb
-Size: 40588
-MD5sum: f49784ce41b91381e308bb466b8256f8
-SHA1: bc34a8d691f3d774edde5275f3f527980d3fdf7f
-SHA256: eddd8518491d69a408ed42ee6ed32aeb1fea943b976cf490c565a4e7d77f7074
-Section: Tweaks
-Description: Color the active Wi-Fi or cellular signal indicator while VPN is connected.
-Author: zanyoo <techyangcy@gmail.com>
-Name: VPNHue
 

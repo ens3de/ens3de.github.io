@@ -1,60 +1,87 @@
-name: Update package repository
+name: Update and deploy package repository
 
 on:
   push:
     branches: [main]
     paths:
       - 'repo/*.deb'
+      - 'scripts/rebuild-repo.py'
+      - '.github/workflows/update-repo.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: update-package-repository
+  group: package-repository-pages
   cancel-in-progress: false
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
-      - name: Rebuild Packages and Release
-        shell: bash
+      - name: Install repository tools
         run: |
-          set -euo pipefail
           sudo apt-get update
           sudo apt-get install --yes --no-install-recommends dpkg-dev
 
-          cd repo
-          dpkg-scanpackages -m . /dev/null > Packages.new
-          mv Packages.new Packages
-          rm -f Packages.gz
+      - name: Rebuild and commit canonical repository state
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          published=false
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/rebuild-repo.py repo
+            git add repo
+            if git diff --cached --quiet; then
+              published=true
+              break
+            fi
+            git commit -m "Rebuild package repository metadata"
+            if git push origin HEAD:main; then
+              published=true
+              break
+            fi
+          done
+          test "$published" = true
 
-          size=$(wc -c < Packages | tr -d ' ')
-          md5=$(md5sum Packages | awk '{print $1}')
-          sha256=$(sha256sum Packages | awk '{print $1}')
-          cat > Release.new <<EOF
-          Origin: ens3 repo
-          Label: ens3 repo
-          Suite: stable
-          Version: 1.0
-          Codename: ios
-          Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-          Components: main
-          Description: ens3 repo
-          MD5Sum:
-           $md5 $size Packages
-          SHA256:
-           $sha256 $size Packages
-          EOF
-          sed -i 's/^          //' Release.new
-          mv Release.new Release
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
 
-      - name: Commit generated metadata
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
-          commit_message: Update Packages and Release metadata
-          file_pattern: repo/Packages repo/Release
+          path: .
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Check out verifier
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
+
+      - name: Verify the public repository
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3 4 5 6; do
+            if python3 scripts/verify-published-repo.py "${{ steps.deployment.outputs.page_url }}"; then
+              exit 0
+            fi
+            sleep 10
+          done
+          exit 1
