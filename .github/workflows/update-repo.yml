@@ -1,0 +1,60 @@
+name: Update package repository
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'repo/*.deb'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-package-repository
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Rebuild Packages and Release
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends dpkg-dev
+
+          cd repo
+          dpkg-scanpackages -m . /dev/null > Packages.new
+          mv Packages.new Packages
+          rm -f Packages.gz
+
+          size=$(wc -c < Packages | tr -d ' ')
+          md5=$(md5sum Packages | awk '{print $1}')
+          sha256=$(sha256sum Packages | awk '{print $1}')
+          cat > Release.new <<EOF
+          Origin: ens3 repo
+          Label: ens3 repo
+          Suite: stable
+          Version: 1.0
+          Codename: ios
+          Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+          Components: main
+          Description: ens3 repo
+          MD5Sum:
+           $md5 $size Packages
+          SHA256:
+           $sha256 $size Packages
+          EOF
+          sed -i 's/^          //' Release.new
+          mv Release.new Release
+
+      - name: Commit generated metadata
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update Packages and Release metadata
+          file_pattern: repo/Packages repo/Release
