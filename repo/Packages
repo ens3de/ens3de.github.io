@@ -1,81 +1,82 @@
 Package: com.anthopak.springcuts-rebuild
-Version: 1.5.3
+Version: 1.5.4
 Architecture: iphoneos-arm64
 Maintainer: local development build
 Installed-Size: 544
 Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: com.anthopak.springcuts-rootless
 Replaces: com.anthopak.springcuts-rootless
-Filename: com.anthopak.springcuts-rebuild_1.5.3_iphoneos-arm64.deb
-Size: 29284
-MD5sum: 769956b22168f0dde7c3c239e77f7ece
-SHA1: cb1aee866f7bb1a4d8d24092d9d9a5fbccfa1cf4
-SHA256: ed4fc716426533f7107274208875c9479a075b86759d32f4201b15fba3a4ed9b
+Filename: com.anthopak.springcuts-rebuild_1.5.4_iphoneos-arm64.deb
+Size: 29362
+MD5sum: 24e5b30ccea0ff1f94bb22e4db9a51db
+SHA1: f074881dcd1be6e5fab2b310755fc115570d90af
+SHA256: 57934bcbba573b3ebdefd8f3065e6843739cfd7e39f666b49ee9c15fc223b3ae
 Section: Tweaks
 Description: SpringCuts 1.5.2-compatible iOS 17.3 WorkflowKit rebuild
+Author: local development build
 Name: SpringCuts Rebuild
 
 Package: de.ens3.appstoreflip2
-Version: 0.1.31
+Version: 0.1.32
 Architecture: iphoneos-arm64
 Maintainer: zanyoo
-Installed-Size: 72
+Installed-Size: 76
 Depends: firmware (>= 17.0), mobilesubstrate
-Filename: de.ens3.appstoreflip2_0.1.31_iphoneos-arm64.deb
-Size: 7798
-MD5sum: 3cd47ec680b0d71a9d6a7c8afe50b050
-SHA1: 0f738663e6e0450a55da7e51cc56ed2b3b9bedac
-SHA256: 1b16a72c2feffabdd79022e2037c8d2afa2a371f941dca27ead274200ad2136c
+Filename: de.ens3.appstoreflip2_0.1.32_iphoneos-arm64.deb
+Size: 7754
+MD5sum: a2fef6b6cb43973caa27ccc1dae2de48
+SHA1: 59712a87406c9bf2c36f3efc4ab45b632968552d
+SHA256: da9b50c13a10af41e81b175f1eeabcb0fd3460f9243f6d02ab6fe874c4b8229e
 Section: Tweaks
 Description: App Store account switcher with country indicators.
 Author: zanyoo
 Name: AppStoreFlip2
 
 Package: de.ens3.controlforge
-Version: 0.3.3
+Version: 0.3.4
 Architecture: iphoneos-arm64
 Maintainer: ControlForge
 Installed-Size: 244
 Depends: com.opa334.ccsupport
 Conflicts: de.ens3.cccustom
 Replaces: de.ens3.cccustom
-Filename: de.ens3.controlforge_0.3.3_iphoneos-arm64.deb
-Size: 43504
-MD5sum: 99fad642227e753451d0b95c1d99c335
-SHA1: 0350d93014136155396bde55c1dc11596131cfd5
-SHA256: 447027700c556f9e53456d48a1907f103ab14538706a0ea5c31b0fcfeae359af
+Filename: de.ens3.controlforge_0.3.4_iphoneos-arm64.deb
+Size: 43554
+MD5sum: bf4e081a2c34027bd3449b2ad2be4e6f
+SHA1: 1d5f63e29f046213174a4d500986ea6891090479
+SHA256: 7026d8e37285e89c7228e9a9e553db6f47de0288a535f52e33b0f5fa12326454
 Section: Control Center (Modules)
 Description: JSON-configured shortcut groups, toggles, VPN, and power controls for iOS 17.
 Author: ControlForge
 Name: ControlForge
 
 Package: de.ens3.remotecompanion.extension
-Version: 0.3.17
+Version: 0.3.18
 Architecture: iphoneos-arm64
 Maintainer: zanyoo
-Installed-Size: 172
+Installed-Size: 204
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: de.ens3.remotecompanion.extension_0.3.17_iphoneos-arm64.deb
-Size: 12666
-MD5sum: 0bb7480129b7ceb0e5609bc2d0242ddb
-SHA1: e39f575c10dce2ea961deea160a490aeb307e693
-SHA256: 0c8c515637426fbc2bf766c8d2fe83a0f9f8553c38c957b65a8754744afacdc2
+Filename: de.ens3.remotecompanion.extension_0.3.18_iphoneos-arm64.deb
+Size: 12400
+MD5sum: 5518eac65e7338e53f8ca251c0fe8b99
+SHA1: a4b334340727d68f8ba405856bc41a1c96941a3a
+SHA256: 5d1f9689a654ae3776e71ab5f03dfdb018173ccf4f0d8026d380bca137c7ed27
 Section: Tweaks
 Description: RemoteCompanion extension for Action Button and Home Bar shortcut events
 Author: zanyoo
 Name: RemoteCompanion Extension
 
 Package: de.ens3.squidshortcutfix
-Version: 0.4.3
+Version: 0.4.4
 Architecture: iphoneos-arm64
 Maintainer: 0x00
-Installed-Size: 128
+Installed-Size: 144
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: de.ens3.squidshortcutfix_0.4.3_iphoneos-arm64.deb
-Size: 11792
-MD5sum: a3c1e4245e3dd3e04cd79fc9e3678db7
-SHA1: bd9ff5a266f5f710e052c92ef4d9d5635811dd49
-SHA256: 7aff58108616534906af18b7198b25eb27d731e44208b057c39ae5d604b2f2b1
+Filename: de.ens3.squidshortcutfix_0.4.4_iphoneos-arm64.deb
+Size: 11736
+MD5sum: 755444f9b4c71fd8f419d8da3028861d
+SHA1: 57cf081dc590c0f0f6eff1422349adc958bf3d6b
+SHA256: 550827753487174d13d18006d23e6ffffa350d59260766e689e9a1e0982aec4e
 Section: Tweaks
 Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
 Author: 0x00
