@@ -83,16 +83,16 @@ Author: 0x00
 Name: SquidShortcutFix
 
 Package: de.ens3.vpnhue
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: zanyoo <techyangcy@gmail.com>
 Installed-Size: 428
-Depends: firmware (>= 17.0), mobilesubstrate
-Filename: de.ens3.vpnhue_1.0.1_iphoneos-arm64.deb
-Size: 36000
-MD5sum: bd6b1f4a8157103c95eeee59315c0658
-SHA1: a8e9556099f5b8a92faa50462c8aa2c8a38f1daf
-SHA256: 1c602a79a02c7ba2c89236caa8006aca095d1edc306dd37b9f7a388aa3aaae71
+Depends: firmware (>= 17.3), mobilesubstrate
+Filename: de.ens3.vpnhue_1.0.2_iphoneos-arm64.deb
+Size: 36060
+MD5sum: bd27f640228d8472ef91d3667a4d7338
+SHA1: 3f1a358026e4751747dc6055b8492a8189a7f8f7
+SHA256: 8ba66b10697a30b45da1683395e53caafbb102d014f2675e9b0447b7baa7fe7e
 Section: Tweaks
 Description: Color the active Wi-Fi or cellular signal indicator while VPN is connected.
 Author: zanyoo <techyangcy@gmail.com>
