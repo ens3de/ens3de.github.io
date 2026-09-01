@@ -17,16 +17,16 @@ Author: local development build
 Name: SpringCuts Rebuild
 
 Package: de.ens3.appstoreflip2
-Version: 0.1.32
+Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: zanyoo
 Installed-Size: 76
-Depends: firmware (>= 17.0), mobilesubstrate
-Filename: de.ens3.appstoreflip2_0.1.32_iphoneos-arm64.deb
-Size: 7754
-MD5sum: a2fef6b6cb43973caa27ccc1dae2de48
-SHA1: 59712a87406c9bf2c36f3efc4ab45b632968552d
-SHA256: da9b50c13a10af41e81b175f1eeabcb0fd3460f9243f6d02ab6fe874c4b8229e
+Depends: firmware (>= 17.3), mobilesubstrate
+Filename: de.ens3.appstoreflip2_1.0.0_iphoneos-arm64.deb
+Size: 7760
+MD5sum: 7fe28dd0c743ad36e27b0bd7ba92dada
+SHA1: eaa61b66f7c8c839c4fbbf959e3d21172001039d
+SHA256: 5df7a4943cff63e98c61d9535d308b832327b84e58c5d3b9f714d66be404150c
 Section: Tweaks
 Description: App Store account switcher with country indicators.
 Author: zanyoo
@@ -51,32 +51,32 @@ Author: ControlForge
 Name: ControlForge
 
 Package: de.ens3.remotecompanion.extension
-Version: 0.3.18
+Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: zanyoo
 Installed-Size: 204
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: de.ens3.remotecompanion.extension_0.3.18_iphoneos-arm64.deb
-Size: 12400
-MD5sum: 5518eac65e7338e53f8ca251c0fe8b99
-SHA1: a4b334340727d68f8ba405856bc41a1c96941a3a
-SHA256: 5d1f9689a654ae3776e71ab5f03dfdb018173ccf4f0d8026d380bca137c7ed27
+Depends: firmware (>= 17.3), mobilesubstrate, com.anthopak.springcuts-rebuild
+Filename: de.ens3.remotecompanion.extension_1.0.0_iphoneos-arm64.deb
+Size: 13716
+MD5sum: 65d8476c26638665f11972669c6cc293
+SHA1: 9ea2898ada73f334fb56bb438aab3182805e4de0
+SHA256: d4b5998ad2ecc498ac2331e5c5d11507228edac1c69a347455d87606dbd3f316
 Section: Tweaks
 Description: RemoteCompanion extension for Action Button and Home Bar shortcut events
 Author: zanyoo
 Name: RemoteCompanion Extension
 
 Package: de.ens3.squidshortcutfix
-Version: 0.4.4
+Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: 0x00
 Installed-Size: 144
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: de.ens3.squidshortcutfix_0.4.4_iphoneos-arm64.deb
-Size: 11736
-MD5sum: 755444f9b4c71fd8f419d8da3028861d
-SHA1: 57cf081dc590c0f0f6eff1422349adc958bf3d6b
-SHA256: 550827753487174d13d18006d23e6ffffa350d59260766e689e9a1e0982aec4e
+Depends: firmware (>= 17.3), mobilesubstrate
+Filename: de.ens3.squidshortcutfix_1.0.0_iphoneos-arm64.deb
+Size: 12310
+MD5sum: 3f3c338e7259d62b3dc2eeed6f8ea5b3
+SHA1: 84163ccdae8031830f8e9f0b406821451627b277
+SHA256: 519259cfa8720740910aedd1bd829a6b61aefd7232ab9cbb05114c5e0c68fc16
 Section: Tweaks
 Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
 Author: 0x00
