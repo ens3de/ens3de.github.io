@@ -81,3 +81,19 @@ Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
 Author: 0x00
 Name: SquidShortcutFix
 
+Package: de.ens3.vpnhue
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: zanyoo <techyangcy@gmail.com>
+Installed-Size: 428
+Depends: firmware (>= 17.0), mobilesubstrate
+Filename: de.ens3.vpnhue_1.0.1_iphoneos-arm64.deb
+Size: 36000
+MD5sum: bd6b1f4a8157103c95eeee59315c0658
+SHA1: a8e9556099f5b8a92faa50462c8aa2c8a38f1daf
+SHA256: 1c602a79a02c7ba2c89236caa8006aca095d1edc306dd37b9f7a388aa3aaae71
+Section: Tweaks
+Description: Color the active Wi-Fi or cellular signal indicator while VPN is connected.
+Author: zanyoo <techyangcy@gmail.com>
+Name: VPNHue
+
