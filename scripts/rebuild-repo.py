@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 PACKAGE_RE = re.compile(r"^[a-z0-9][a-z0-9+.-]+$")
 VERSION_RE = re.compile(r"^[0-9]+\.[0-9]+\.[0-9]+$")
 ARCHITECTURE = "iphoneos-arm64"
+DEPICTION_BASE = "https://ens3de.github.io/depictions/"
 
 
 def control_fields(package: pathlib.Path) -> dict[str, str]:
@@ -57,6 +58,19 @@ def atomic_write(path: pathlib.Path, content: str) -> None:
     except BaseException:
         pathlib.Path(temporary).unlink(missing_ok=True)
         raise
+
+
+def add_depiction_fields(content: str) -> str:
+    paragraphs = []
+    for paragraph in content.strip().split("\n\n"):
+        if not paragraph:
+            continue
+        fields = paragraph.splitlines()
+        package_id = next((line.split(":", 1)[1].strip() for line in fields if line.startswith("Package:")), None)
+        if package_id and not any(line.startswith("SileoDepiction:") for line in fields):
+            fields.append(f"SileoDepiction: {DEPICTION_BASE}{package_id}.json")
+        paragraphs.append("\n".join(fields))
+    return "\n\n".join(paragraphs) + "\n"
 
 
 def parse_index(content: str) -> list[dict[str, str]]:
@@ -171,6 +185,7 @@ def main() -> int:
         stdout=subprocess.PIPE,
     ).stdout
     scan = scan.replace("Filename: ./", "Filename: ")
+    scan = add_depiction_fields(scan)
     if not scan.endswith("\n"):
         scan += "\n"
     try:

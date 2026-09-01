@@ -5,7 +5,9 @@ on:
     branches: [main]
     paths:
       - 'repo/*.deb'
+      - 'depictions/*.json'
       - 'scripts/rebuild-repo.py'
+      - 'scripts/generate-depiction.py'
       - '.github/workflows/update-repo.yml'
   workflow_dispatch:
 
@@ -40,7 +42,7 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             python3 scripts/rebuild-repo.py repo
-            git add repo
+            git add repo depictions scripts/generate-depiction.py
             if git diff --cached --quiet; then
               published=true
               break

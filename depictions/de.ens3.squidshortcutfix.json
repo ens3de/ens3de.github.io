@@ -1,0 +1,13 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {"class": "DepictionStackView", "tabname": "概览", "views": [
+      {"class": "DepictionHeaderView", "title": "SquidShortcutFix"},
+      {"class": "DepictionTableTextView", "title": "版本", "text": "1.0.0"}
+    ]},
+    {"class": "DepictionStackView", "tabname": "更新日志", "views": [
+      {"class": "DepictionMarkdownView", "markdown": "## 1.0.0\n\n- 通过 WorkflowKit 修复兼容快捷指令动作。\n- 将特权 respring 和 reboot 限制为固定白名单命令。"}
+    ]}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {"class": "DepictionStackView", "tabname": "概览", "views": [
+      {"class": "DepictionHeaderView", "title": "SpringCuts"},
+      {"class": "DepictionTableTextView", "title": "版本", "text": "1.5.4"}
+    ]},
+    {"class": "DepictionStackView", "tabname": "更新日志", "views": [
+      {"class": "DepictionMarkdownView", "markdown": "## 1.5.4\n\n- 重建 WorkflowKit 执行桥，兼容 iOS 17.3 rootless 环境。\n- 保留原 SpringCuts 命令接口。"}
+    ]}
+  ]
+}

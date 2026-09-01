@@ -1,0 +1,13 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {"class": "DepictionStackView", "tabname": "概览", "views": [
+      {"class": "DepictionHeaderView", "title": "VPNHue"},
+      {"class": "DepictionTableTextView", "title": "版本", "text": "1.0.2"}
+    ]},
+    {"class": "DepictionStackView", "tabname": "更新日志", "views": [
+      {"class": "DepictionMarkdownView", "markdown": "## 1.0.2\n\n- 固定 CI 使用的 iPhoneOS 16.5 SDK。\n- 标准化 rootless 发布与元数据。"}
+    ]}
+  ]
+}

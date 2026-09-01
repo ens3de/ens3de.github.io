@@ -1,0 +1,13 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {"class": "DepictionStackView", "tabname": "概览", "views": [
+      {"class": "DepictionHeaderView", "title": "ControlForge"},
+      {"class": "DepictionTableTextView", "title": "版本", "text": "0.3.4"}
+    ]},
+    {"class": "DepictionStackView", "tabname": "更新日志", "views": [
+      {"class": "DepictionMarkdownView", "markdown": "## 0.3.4\n\n- 提供快捷指令、开关、控制组、VPN 和电源控制项。\n- 设置 App 注入层仅用于准确跳转 VPN 设置页面。"}
+    ]}
+  ]
+}
