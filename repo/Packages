@@ -15,6 +15,7 @@ Section: Tweaks
 Description: SpringCuts 1.5.2-compatible iOS 17.3 WorkflowKit rebuild
 Author: local development build
 Name: SpringCuts Rebuild
+SileoDepiction: https://ens3de.github.io/depictions/com.anthopak.springcuts-rebuild.json
 
 Package: de.ens3.appstoreflip2
 Version: 1.0.0
@@ -31,6 +32,7 @@ Section: Tweaks
 Description: App Store account switcher with country indicators.
 Author: zanyoo
 Name: AppStoreFlip2
+SileoDepiction: https://ens3de.github.io/depictions/de.ens3.appstoreflip2.json
 
 Package: de.ens3.controlforge
 Version: 0.3.4
@@ -49,6 +51,7 @@ Section: Control Center (Modules)
 Description: JSON-configured shortcut groups, toggles, VPN, and power controls for iOS 17.
 Author: ControlForge
 Name: ControlForge
+SileoDepiction: https://ens3de.github.io/depictions/de.ens3.controlforge.json
 
 Package: de.ens3.remotecompanion.extension
 Version: 1.0.0
@@ -65,6 +68,7 @@ Section: Tweaks
 Description: RemoteCompanion extension for Action Button and Home Bar shortcut events
 Author: zanyoo
 Name: RemoteCompanion Extension
+SileoDepiction: https://ens3de.github.io/depictions/de.ens3.remotecompanion.extension.json
 
 Package: de.ens3.squidshortcutfix
 Version: 1.0.0
@@ -81,6 +85,7 @@ Section: Tweaks
 Description: SquidGesturePro shortcut, Respring, and Reboot compatibility fix
 Author: 0x00
 Name: SquidShortcutFix
+SileoDepiction: https://ens3de.github.io/depictions/de.ens3.squidshortcutfix.json
 
 Package: de.ens3.vpnhue
 Version: 1.0.2
@@ -97,4 +102,4 @@ Section: Tweaks
 Description: Color the active Wi-Fi or cellular signal indicator while VPN is connected.
 Author: zanyoo <techyangcy@gmail.com>
 Name: VPNHue
-
+SileoDepiction: https://ens3de.github.io/depictions/de.ens3.vpnhue.json
