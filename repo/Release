@@ -3,11 +3,11 @@ Label: ens3 repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Date: Tue, 01 Sep 2026 10:51:44 +0000
+Date: Tue, 01 Sep 2026 10:54:50 +0000
 Architectures: iphoneos-arm64
 Components: main
 Description: ens3 rootless package repository
 MD5Sum:
- 274a26ccae52a164c0651463b211485f 3925 Packages
+ 5468ffa6cdf2f53f36e5e01532246253 3945 Packages
 SHA256:
- 6f03d3440f41d87149a1e9d34090562bef646954a66adccb45dea10af230e13d 3925 Packages
+ 2fd4e83085cb7d8bcb74bdc3186c0661abad909d71dee8c1fb0101c7520090b3 3945 Packages
