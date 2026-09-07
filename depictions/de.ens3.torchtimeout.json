@@ -13,7 +13,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.0.2"
+          "text": "1.0.3"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Add a compact flashlight and timer icon to the settings entry."
+          "markdown": "- Resize the preference icon to the standard 29pt @2x dimensions."
         }
       ]
     }
