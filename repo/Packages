@@ -1,20 +1,20 @@
 Package: com.anthopak.springcuts-rebuild
-Version: 1.5.4
+Version: 1.5.5
 Architecture: iphoneos-arm64
 Maintainer: local development build
 Installed-Size: 544
 Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: com.anthopak.springcuts-rootless
 Replaces: com.anthopak.springcuts-rootless
-Filename: com.anthopak.springcuts-rebuild_1.5.4_iphoneos-arm64.deb
-Size: 29362
-MD5sum: 24e5b30ccea0ff1f94bb22e4db9a51db
-SHA1: f074881dcd1be6e5fab2b310755fc115570d90af
-SHA256: 57934bcbba573b3ebdefd8f3065e6843739cfd7e39f666b49ee9c15fc223b3ae
+Filename: com.anthopak.springcuts-rebuild_1.5.5_iphoneos-arm64.deb
+Size: 29312
+MD5sum: 469350075e80d23b6e98aa2ee274b3a5
+SHA1: 19d1c88e4b1424a64932b05607f591746fe21378
+SHA256: 77bce215e259d54012026d8223e7e990729643ac4ac2859ebd634e17fae2e7c3
 Section: Tweaks
-Description: SpringCuts 1.5.2-compatible iOS 17.3 WorkflowKit rebuild
+Description: SpringCuts 1.5.2-compatible rebuild for WorkflowKit on iOS 17.3 rootless jailbreaks.
 Author: local development build
-Name: SpringCuts Rebuild
+Name: SpringCuts
 SileoDepiction: https://ens3de.github.io/depictions/com.anthopak.springcuts-rebuild.json
 
 Package: de.ens3.appstoreflip2
