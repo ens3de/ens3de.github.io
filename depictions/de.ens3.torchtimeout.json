@@ -13,7 +13,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.0.3"
+          "text": "1.0.4"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Resize the preference icon to the standard 29pt @2x dimensions."
+          "markdown": "- Use standard `icon@2x.png` and `icon@3x.png` preference resources."
         }
       ]
     }

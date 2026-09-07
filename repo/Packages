@@ -88,16 +88,16 @@ Name: SquidShortcutFix
 SileoDepiction: https://ens3de.github.io/depictions/de.ens3.squidshortcutfix.json
 
 Package: de.ens3.torchtimeout
-Version: 1.0.3
+Version: 1.0.4
 Architecture: iphoneos-arm64
 Maintainer: ens3
-Installed-Size: 356
+Installed-Size: 368
 Depends: firmware (>= 17.3), mobilesubstrate, preferenceloader
-Filename: de.ens3.torchtimeout_1.0.3_iphoneos-arm64.deb
-Size: 13680
-MD5sum: 0d17bdaedbbbd7e38cdc244ccd434119
-SHA1: 744e4c415bd3b582e9b0f0ac7d9fb3b9dc813487
-SHA256: 6c27e0ce09155572f00b0a57028ee034b8061a8924e7faa041ba0a8ad31cb554
+Filename: de.ens3.torchtimeout_1.0.4_iphoneos-arm64.deb
+Size: 21870
+MD5sum: e2925f51cf60a87188ef51ed59613f9d
+SHA1: 3a3cb676843b6e1655d4a3259dff9a4ffd22f28e
+SHA256: 546c4377d25b6c0dbd52f35f506857d32bcbf85e71d15752bef78cf8d622346c
 Section: Tweaks
 Description: Automatically turn off the flashlight after a configurable delay.
 Author: ens3
