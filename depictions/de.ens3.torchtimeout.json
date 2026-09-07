@@ -1,0 +1,31 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "概览",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "de.ens3.torchtimeout"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.0"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Add a configurable flashlight timeout, defaulting to 180 seconds.\n- Cancel pending timeout on manual shutdown and restart on activation.\n- Support direct AVFoundation flashlight control used by RemoteCompanion.\n- Hook the concrete iOS 17 capture-device class used by RemoteCompanion.\n- Retain the capture device until the pending timeout completes.\n- Release the retained device immediately when the tweak is disabled."
+        }
+      ]
+    }
+  ]
+}
