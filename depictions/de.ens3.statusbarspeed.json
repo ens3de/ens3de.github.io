@@ -1,0 +1,31 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "概览",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "de.ens3.statusbarspeed"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.1.0"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- First formal release based on the tested dev.40 implementation.\n\n- Reverted the Dynamic Island auto-hide behavior; restored the previous always-visible status-bar display.\n\n- Fixed the packaged preference plist so the new upload/download and font settings appear on-device.\n\n- Simplified preferences to separate upload/download visibility, latency/IP, font size, bold text, and refresh interval.\n\n- Removed one-time hierarchy diagnostics, verbose render logs, and the broad UIView tint hook after confirming direct status-bar foreground mounting.\n\n- Avoid treating empty full-screen status-bar layout placeholders as the icon host and log all SpringBoard windows for discovery.\n\n- Added one-time status-bar hierarchy diagnostics to identify the real cellular/Wi-Fi icon host for exact sibling mounting.\n\n- Ignore the foreground container's accent-blue tint and prioritize actual icon color or status-bar style.\n\n- Keep the label in the scene overlay when the discovered status-bar object is a clipping layout container, while still using it for color discovery.\n\n- Fixed status-bar-container coordinates so the label is not placed outside the discovered view after direct mounting.\n\n- Discover the status-bar container from active SpringBoard windows when private layout hooks are unavailable.\n\n- Re-scan leaf status-bar icon views and react to runtime `setTintColor:` changes.\n\n- Read the resolved tint from status-bar icon descendants before using the foreground container color.\n\n- Prefer mounting the label inside `_UIStatusBarForegroundView` so it inherits the real status-bar tint color, with the scene overlay retained as a fallback."
+        }
+      ]
+    }
+  ]
+}
