@@ -87,6 +87,23 @@ Author: 0x00
 Name: SquidShortcutFix
 SileoDepiction: https://ens3de.github.io/depictions/de.ens3.squidshortcutfix.json
 
+Package: de.ens3.statusbarspeed
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: ens3 <maintainer@example.com>
+Installed-Size: 400
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: de.ens3.statusbarspeed_0.1.0_iphoneos-arm64.deb
+Size: 35726
+MD5sum: 946e233733ab554a02817c72e11c5294
+SHA1: 46d63b4ce6e6e7761c61bf80511e6147feeaaf34
+SHA256: c89be958c18687eb278faad4a5c0b0bbf3ccd7693e141518b6bc6a2d2344d24c
+Section: Tweaks
+Description: StatusBarSpeed
+Author: ens3 <maintainer@example.com>
+Name: StatusBarSpeed
+SileoDepiction: https://ens3de.github.io/depictions/de.ens3.statusbarspeed.json
+
 Package: de.ens3.torchtimeout
 Version: 1.0.4
 Architecture: iphoneos-arm64
