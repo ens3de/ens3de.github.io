@@ -35,18 +35,18 @@ Name: AppStoreFlip2
 SileoDepiction: https://ens3de.github.io/depictions/de.ens3.appstoreflip2.json
 
 Package: de.ens3.controlforge
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: ControlForge
-Installed-Size: 244
+Installed-Size: 280
 Depends: firmware (>= 17.3), com.opa334.ccsupport
 Conflicts: de.ens3.cccustom
 Replaces: de.ens3.cccustom
-Filename: de.ens3.controlforge_1.0.0_iphoneos-arm64.deb
-Size: 43602
-MD5sum: 31241ae96f6f2792a8e2310cd29cd972
-SHA1: cd402831d6735a0cca9f23ed92927edd5f66babe
-SHA256: 84c03beff59c584cc0b05a0496ce26d4964a96dae2815e5723a0f54d66cededc
+Filename: de.ens3.controlforge_1.0.1_iphoneos-arm64.deb
+Size: 49446
+MD5sum: a246b5e1ea6c59f5091b4b8651aaec60
+SHA1: f45da70f98ab4ac127870e6d101e2f54ff918083
+SHA256: f8efed18c9c476180066bc544126c35ab5bcc34b2773e21a3e354f9a3ea107d4
 Section: Control Center (Modules)
 Description: JSON-configured shortcut groups, toggles, VPN, and power controls for iOS 17.
 Author: ControlForge
