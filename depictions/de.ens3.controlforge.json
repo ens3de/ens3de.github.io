@@ -2,12 +2,30 @@
   "minVersion": "0.4",
   "class": "DepictionTabView",
   "tabs": [
-    {"class": "DepictionStackView", "tabname": "概览", "views": [
-      {"class": "DepictionHeaderView", "title": "ControlForge"},
-      {"class": "DepictionTableTextView", "title": "版本", "text": "0.3.4"}
-    ]},
-    {"class": "DepictionStackView", "tabname": "更新日志", "views": [
-      {"class": "DepictionMarkdownView", "markdown": "## 0.3.4\n\n- 提供快捷指令、开关、控制组、VPN 和电源控制项。\n- 设置 App 注入层仅用于准确跳转 VPN 设置页面。"}
-    ]}
+    {
+      "class": "DepictionStackView",
+      "tabname": "概览",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "de.ens3.controlforge"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.1"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Redesign the 2×1 VPN control's picker as a compact, full-width vertical list with clearer profile and provider labels.\n- Add a per-profile settings button to open OpenVPN Connect, WireGuard, or Shadowrocket.\n- Allow a long press outside the VPN connection icon to open the system VPN settings page without briefly opening the picker.\n- Add the 1×1 “防止锁屏” control, which prevents automatic locking while enabled and preserves the system's configured auto-lock duration.\n- Clarify the prevention state with locked and slashed-lock glyphs."
+        }
+      ]
+    }
   ]
 }
