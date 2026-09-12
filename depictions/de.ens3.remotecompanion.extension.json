@@ -13,7 +13,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.0.2"
+          "text": "1.0.3"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Stable release of the RemoteCommand `SRLog` filtering and logging switch.\n- The switch controls RemoteCompanion and Extension logging from RemoteCompanion\n  Settings > General."
+          "markdown": "- Promote the tested `1.0.3~dev.68` implementation to the stable package\n  version for test-source validation.\n- Keep mixed action ordering and RemoteCompanion Power + Volume Down behavior\n  as documented known issues."
         }
       ]
     }
