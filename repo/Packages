@@ -54,16 +54,16 @@ Name: ControlForge
 SileoDepiction: https://ens3de.github.io/depictions/de.ens3.controlforge.json
 
 Package: de.ens3.remotecompanion.extension
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm64
 Maintainer: zanyoo
-Installed-Size: 204
+Installed-Size: 336
 Depends: firmware (>= 17.3), mobilesubstrate, com.anthopak.springcuts-rebuild
-Filename: de.ens3.remotecompanion.extension_1.0.2_iphoneos-arm64.deb
-Size: 15936
-MD5sum: 54810a6791094663a429ccef923c7d76
-SHA1: 01ebd84b92ca5a9c030f8e992b4eb15cdbe67e5b
-SHA256: 300043954ec9daaffc56074a28e05df0aeb3485a087903dc90f383312a01bbf3
+Filename: de.ens3.remotecompanion.extension_1.0.3_iphoneos-arm64.deb
+Size: 53850
+MD5sum: a547819c4d2f1c66ac6475a1f11bfdc0
+SHA1: 6b056a1ff3af782c6c9dbc377beef54365f4a2cf
+SHA256: 65d41c2e16da497705fe3bf9826746ad409b34097bb676d5d01ed66e38dbc1d7
 Section: Tweaks
 Description: RemoteCompanion extension for Action Button and Home Bar shortcut events
 Author: zanyoo
