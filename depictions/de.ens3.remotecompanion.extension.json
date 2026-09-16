@@ -13,7 +13,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.0.3"
+          "text": "1.0.4"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Promote the tested `1.0.3~dev.68` implementation to the stable package\n  version for test-source validation.\n- Keep mixed action ordering and RemoteCompanion Power + Volume Down behavior\n  as documented known issues."
+          "markdown": "- Remove the experimental Home Bar quick-action probing and target-app test\n  path.\n- Stop querying SpringBoard's icon model from a Home Bar long press; retain\n  App Shortcut scanning, picker configuration, cached native observations, and\n  configured trigger execution."
         }
       ]
     }
