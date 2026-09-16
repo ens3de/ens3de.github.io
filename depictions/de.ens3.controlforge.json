@@ -13,7 +13,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.0.1"
+          "text": "1.0.2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Redesign the 2×1 VPN control's picker as a compact, full-width vertical list with clearer profile and provider labels.\n- Add a per-profile settings button to open OpenVPN Connect, WireGuard, or Shadowrocket.\n- Allow a long press outside the VPN connection icon to open the system VPN settings page without briefly opening the picker.\n- Add the 1×1 “防止锁屏” control, which prevents automatic locking while enabled and preserves the system's configured auto-lock duration.\n- Clarify the prevention state with locked and slashed-lock glyphs."
+          "markdown": "- Restore the compact auto-lock tile corner radius to 0.22 while keeping the expanded menu corner radius at 0.12.\n- Update the unselected clock-accent glyph from the latest SVG, including the revised lower-right lock position.\n- Re-render the updated SVG glyphs with a transparent background so both lock and clock components display correctly in Control Center.\n- Reduce the auto-lock glyph display size by 30% to better match the Control Center tile proportions.\n- Further reduce the glyph display size to 50pt for a balanced 1×1 Control Center tile appearance.\n- Restore complete SVG canvas centering for the auto-lock glyph; the lock-and-clock image is centered as a whole.\n- Use the supplied complete off/on tile SVGs to keep the platter background and icon state synchronized.\n- Remove the opaque conversion matte from the tile corners so the unselected tile has no white border.\n- Use transparent SVG-derived glyphs only, allowing the unselected auto-lock tile to use the same system platter treatment as Smart Home.\n- Restore the white selected platter behind the blue SVG-derived auto-lock glyph.\n\n- Match selected and unselected tile corner treatment, refine the lock-with-clock stroke weight, and keep the clock badge fully inside the glyph canvas.\n\n- Prevent auto-lock with a disable assertion from SpringBoard's live idle-timer coordinator; reset the control to off after a Respring or reboot.\n- Limit auto-lock prevention to five minutes by default. Long press the control to choose 5 minutes, 10 minutes, 30 minutes, or one hour; expiration automatically restores normal auto-lock.\n- Explicitly invalidate the idle-timer assertion when prevention is stopped or expires, allowing the normal system timer to resume without an extra reset.\n- Restore the selected white compact-tile background and show the active duration with a checkmark in the duration menu.\n- Use one custom lock-with-clock glyph for auto-lock prevention: white on the dark tile and system blue on the white selected platter.\n- Increase the lock-with-clock glyph size in the compact auto-lock tile.\n- Define and implement the lock-with-clock visual specification, with a larger lock body and attached clock badge.\n- Match the approved compact-tile mockup by increasing the timed-lock glyph to 56pt.\n- Give the selected white auto-lock platter the same adaptive rounded corners as other 1×1 Control Center tiles.\n- Refine the compact timed-lock glyph from 56pt to 50pt."
         }
       ]
     }
