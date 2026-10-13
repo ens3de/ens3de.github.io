@@ -1,0 +1,31 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "概览",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "de.ens3.squidgesturefix"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.0"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fix SquidGesturePro's flashlight toggle after its first on/off cycle on iOS 18.6.2. This is the first fix in the Squid Gesture Fix package.\n- Keep Squid's original long-press recognition and leave other flashlight callers unchanged."
+        }
+      ]
+    }
+  ]
+}
