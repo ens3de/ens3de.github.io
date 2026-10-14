@@ -13,7 +13,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.0.0"
+          "text": "1.1.0"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Fix SquidGesturePro's flashlight toggle after its first on/off cycle on iOS 18.6.2. This is the first fix in the Squid Gesture Fix package.\n- Keep Squid's original long-press recognition and leave other flashlight callers unchanged."
+          "markdown": "- Keep the previous SpringBoard termination behavior for the unverified\n  `注销(SB)` action; retain the redacted callback and lock-state diagnostics.\n- Record the resolved system-action category without logging shortcut names.\n- Incorporate the tested shortcut, respring, reboot, and flashlight compatibility fixes."
         }
       ]
     }
