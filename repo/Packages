@@ -71,19 +71,20 @@ Name: RemoteCompanion Extension
 SileoDepiction: https://ens3de.github.io/depictions/de.ens3.remotecompanion.extension.json
 
 Package: de.ens3.squidgesturefix
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: zanyoo
-Installed-Size: 168
+Installed-Size: 336
 Depends: firmware (>= 18.6.2), mobilesubstrate, com.lclrc.squidgesturepro
-Conflicts: de.ens3.squidflashfix
-Filename: de.ens3.squidgesturefix_1.0.0_iphoneos-arm64.deb
-Size: 4228
-MD5sum: 6f1d3fde81fcb4501ac4e02546131cc5
-SHA1: bfa29e6b26885432102070aade099c5dc500387f
-SHA256: b48cf83756de57372bbe71f3bdeb926d4a2c34809edf3ec261f42910477928de
+Conflicts: de.ens3.squidflashfix, de.ens3.squidshortcutfix
+Replaces: de.ens3.squidshortcutfix
+Filename: de.ens3.squidgesturefix_1.1.0_iphoneos-arm64.deb
+Size: 18542
+MD5sum: b2bb699ad2909732b48801caaa5bdc8d
+SHA1: 9027e19e81c9072bede96b012b8c1561e8aecc24
+SHA256: e90e3f9848b6bf83972f48270a3bd53bcc5aab58d38ca737ae24c9aace1032f0
 Section: Tweaks
-Description: Compatibility fixes for SquidGesturePro on iOS 18
+Description: Flashlight, shortcut, respring, and reboot fixes for SquidGesturePro
 Author: zanyoo
 Name: Squid Gesture Fix
 SileoDepiction: https://ens3de.github.io/depictions/de.ens3.squidgesturefix.json
@@ -123,16 +124,18 @@ Name: StatusBarSpeed
 SileoDepiction: https://ens3de.github.io/depictions/de.ens3.statusbarspeed.json
 
 Package: de.ens3.torchtimeout
-Version: 1.0.4
+Version: 1.0.6
 Architecture: iphoneos-arm64
 Maintainer: ens3
 Installed-Size: 368
 Depends: firmware (>= 17.3), mobilesubstrate, preferenceloader
-Filename: de.ens3.torchtimeout_1.0.4_iphoneos-arm64.deb
-Size: 21870
-MD5sum: e2925f51cf60a87188ef51ed59613f9d
-SHA1: 3a3cb676843b6e1655d4a3259dff9a4ffd22f28e
-SHA256: 546c4377d25b6c0dbd52f35f506857d32bcbf85e71d15752bef78cf8d622346c
+Conflicts: de.ens3.torchtimeout.ios18
+Replaces: de.ens3.torchtimeout.ios18
+Filename: de.ens3.torchtimeout_1.0.6_iphoneos-arm64.deb
+Size: 23784
+MD5sum: 9364c8fe2e6233a585afbf88d12fdd10
+SHA1: e6ff79b99310fa6d0ccb1213619b93e7fb5c95f1
+SHA256: bc86b1ebd0d3d45df091aacf320c7eda6e19664b1fdf08d3647ec3042486b5b6
 Section: Tweaks
 Description: Automatically turn off the flashlight after a configurable delay.
 Author: ens3
