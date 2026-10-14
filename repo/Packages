@@ -139,6 +139,24 @@ Author: ens3
 Name: Torch Timeout
 SileoDepiction: https://ens3de.github.io/depictions/de.ens3.torchtimeout.json
 
+Package: de.ens3.torchtimeout.ios18
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: ens3
+Installed-Size: 368
+Depends: firmware (= 18.6.2), mobilesubstrate, preferenceloader
+Conflicts: de.ens3.torchtimeout
+Filename: de.ens3.torchtimeout.ios18_1.0.0_iphoneos-arm64.deb
+Size: 23582
+MD5sum: 1255305d54097361c81402046e0512bf
+SHA1: 48df5ed9c790484d04f1fbc740679105d00ef58f
+SHA256: b35ec82d03eef8c8221e00dc60de9911a61d8b8ec06217360511910f7db2ae80
+Section: Tweaks
+Description: Configurable flashlight timeout for iOS 18.6.2.
+Author: ens3
+Name: Torch Timeout (iOS 18.6.2)
+SileoDepiction: https://ens3de.github.io/depictions/de.ens3.torchtimeout.ios18.json
+
 Package: de.ens3.vpnhue
 Version: 1.0.2
 Architecture: iphoneos-arm64
