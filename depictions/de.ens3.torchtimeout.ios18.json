@@ -1,0 +1,31 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "概览",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "de.ens3.torchtimeout.ios18"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.0"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- First stable release of the separately identified iOS 18.6.2 variant.\n- Automatically turn off the flashlight after the configured delay, including SquidGesturePro's direct AVFlashlight route.\n- Tested on iPhone 11 Pro running iOS 18.6.2 with Dopamine 3 rootless. No other iOS version or device model is claimed as tested."
+        }
+      ]
+    }
+  ]
+}
