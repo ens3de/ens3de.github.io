@@ -161,16 +161,16 @@ Name: Torch Timeout (iOS 18.6.2)
 SileoDepiction: https://ens3de.github.io/depictions/de.ens3.torchtimeout.ios18.json
 
 Package: de.ens3.vpnhue
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm64
 Maintainer: zanyoo <techyangcy@gmail.com>
 Installed-Size: 428
 Depends: firmware (>= 17.3), mobilesubstrate
-Filename: de.ens3.vpnhue_1.0.2_iphoneos-arm64.deb
-Size: 36060
-MD5sum: bd27f640228d8472ef91d3667a4d7338
-SHA1: 3f1a358026e4751747dc6055b8492a8189a7f8f7
-SHA256: 8ba66b10697a30b45da1683395e53caafbb102d014f2675e9b0447b7baa7fe7e
+Filename: de.ens3.vpnhue_1.0.3_iphoneos-arm64.deb
+Size: 36502
+MD5sum: 00438867af44bafd359247840d9f6310
+SHA1: 3872781b6c70d95adeea04cfad215b57b7c042b8
+SHA256: 3d76550183a495b11ed75da76e3388a356fdc7f654c984ccad1d0f8eb0b45b31
 Section: Tweaks
 Description: Color the active Wi-Fi or cellular signal indicator while VPN is connected.
 Author: zanyoo <techyangcy@gmail.com>
