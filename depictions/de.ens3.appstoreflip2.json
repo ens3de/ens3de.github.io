@@ -2,12 +2,30 @@
   "minVersion": "0.4",
   "class": "DepictionTabView",
   "tabs": [
-    {"class": "DepictionStackView", "tabname": "概览", "views": [
-      {"class": "DepictionHeaderView", "title": "AppStoreFlip2"},
-      {"class": "DepictionTableTextView", "title": "版本", "text": "1.0.0"}
-    ]},
-    {"class": "DepictionStackView", "tabname": "更新日志", "views": [
-      {"class": "DepictionMarkdownView", "markdown": "## 1.0.0\n\n- App Store 账户切换与 storefront 国家标识。\n- 串行化账户切换并安全重建界面控件。"}
-    ]}
+    {
+      "class": "DepictionStackView",
+      "tabname": "概览",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "de.ens3.appstoreflip2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.1.0"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Replace the per-account buttons with a menu opened by long-pressing the account button.\n- Show each account's country flag and name in the menu so accounts in the same storefront can be told apart.\n- Keep the country flag badge fully visible while the long-press menu is open."
+        }
+      ]
+    }
   ]
 }
