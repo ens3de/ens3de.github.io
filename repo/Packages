@@ -18,16 +18,16 @@ Name: SpringCuts
 SileoDepiction: https://ens3de.github.io/depictions/com.anthopak.springcuts-rebuild.json
 
 Package: de.ens3.appstoreflip2
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: zanyoo
-Installed-Size: 76
+Installed-Size: 92
 Depends: firmware (>= 17.3), mobilesubstrate
-Filename: de.ens3.appstoreflip2_1.0.0_iphoneos-arm64.deb
-Size: 7760
-MD5sum: 7fe28dd0c743ad36e27b0bd7ba92dada
-SHA1: eaa61b66f7c8c839c4fbbf959e3d21172001039d
-SHA256: 5df7a4943cff63e98c61d9535d308b832327b84e58c5d3b9f714d66be404150c
+Filename: de.ens3.appstoreflip2_1.1.0_iphoneos-arm64.deb
+Size: 10474
+MD5sum: 142d524f3aa0145147c467745b23dd55
+SHA1: 9881ae4ae60eb517b75b3375c88485233528102c
+SHA256: 5c219ac3ab7fcc870960a3478328255989951ec2f0dd3ce3e1c481e767ef439e
 Section: Tweaks
 Description: App Store account switcher with country indicators.
 Author: zanyoo
